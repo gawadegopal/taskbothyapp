@@ -333,7 +333,7 @@ export default function DashboardPage() {
                     onOpenChange={setFilter}
                 >
                     <DialogContent className="w-[95vw] max-w-[425px] mx-auto text-[#1D1D1F]">
-                        <DialogHeader>
+                        <DialogHeader className='px-4'>
                             <DialogTitle>
                                 Filter Boards
                             </DialogTitle>
@@ -343,7 +343,7 @@ export default function DashboardPage() {
                             </p>
                         </DialogHeader>
 
-                        <div className="p-2">
+                        <div className="px-2">
                             <div className="p-2">
                                 <Label>
                                     Search
